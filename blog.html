@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipr Blog - All Posts</title>
+    <meta name="description" content="Browse all blog posts on Flipr Blog">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#232536',
+                        secondary: '#FFD050',
+                        purple: '#592EA9',
+                        'dark-grey': '#4C4C4C',
+                        'medium-grey': '#6D6E76',
+                        'light-grey': '#F4F4F4',
+                        lavender: '#F4F0F8',
+                        'fate-yellow':'#FBF6EA',
+                        'light-yellow': '#FFD050',
+                    },
+                    fontFamily: {
+                        'sen': ['Sen', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+   
+</head>
+<body class="font-inter text-primary">
+    <header class="bg-primary text-white py-4">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center justify-between">
+                <span>
+                    <h1 class="text-2xl"> {Finsweet</h1>
+                </span>
+                <ul class="flex justify-end items-center space-x-6 ">
+                    <li><a href="index.html" class="hover:text-secondary transition-colors">Home</a></li>
+                    <li><a href="blog.html" class="hover:text-secondary transition-colors">Blog</a></li>
+                    <li><a href="about.html" class="hover:text-secondary transition-colors">About Us</a></li>
+                    <li><a href="contact.html" class="hover:text-secondary transition-colors">Contact</a></li>
+                    <button class="rounded-lg bg-white w-36 h-12 text-black hover:bg-light-yellow transition-colors"><a href="#">Subscribe</a></button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto ">
+        <div class="h-[35rem] bg-lavender  fade-in p-10">
+        <div class=" absolute top-[25%] w-[45%] ">
+            <h2 class="uppercase text-black tracking-wide mb-4">Featured Post
+            </h2>
+            <div class="text-black ">
+                <h1 class="text-4xl font-bold mb-4">Step-by-step guide to choosing great font pairs</h1>
+                <p class="text-lg mb-4"> By <span class="text-purple">John Doe</span> | May 23 2022.
+                </p>
+                <div>
+                    <p class="text-lg  text-gray-400 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                </div>
+                <button class="bg-light-yellow w-36 h-8 rounded-sm items-center text-sm text-black hover:bg-yellow-400 transition-transform hover:-translate-y-2 hover:shadow-lg fade-in"><a href="blog-post.html">Read More
+                    ></a></button>
+            </div>
+        </div>
+        <div class="w-[35%] absolute right-[5rem] top-[25%]">
+            <img src="assests/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.svg" alt="">
+        </div>
+    </div>
+        <h1 class="font-sen text-4xl font-bold p-10 border border-b-2 fade-in">All Posts</h1>
+
+        <div class="grid grid-rows-5 md:grid-rows-2 lg:grid-rows-3 gap-8 p-10">
+            <article class=" rounded-lg overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">
+           <div class="flex ">     <img src="assests/two-women-in-front-of-dry-erase-board-1181533.svg" alt="Blog post image" class="object-cover">
+                <div class="p-6 w-[44rem]">
+                      <h2 class="uppercase text-purple text- tracking-wide mb-4">Startup us</h2>
+                    <h3 class="font-sen text-xl font-bold mb-2">The Future of AI in Everyday Life</h3>
+                    <p class="mb-4">Explore how artificial intelligence is shaping our daily routines and what to expect in the coming years.</p>
+                   
+                </div></div>
+            </article>
+            <article class=" rounded-lg overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">
+                <div class="flex ">     <img src="assests/photo-of-people-doing-handshakes-3183197.svg" alt="Blog post image" class="object-cover">
+                    <div class="p-6 w-[44rem]">
+                          <h2 class="uppercase text-purple text- tracking-wide mb-4">BUSINESS us</h2>
+                        <h3 class="font-sen text-xl font-bold mb-2">The Future of AI in Everyday Life</h3>
+                        <p class="mb-4">Explore how artificial intelligence is shaping our daily routines and what to expect in the coming years.</p>
+                       
+                    </div></div>
+            </article>
+            <article class=" rounded-lg overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">
+                <div class="flex ">     <img src="assests/photo-of-woman-looking-at-man-3183173.svg" alt="Blog post image" class="object-cover">
+                    <div class="p-6 w-[44rem]">
+                          <h2 class="uppercase text-purple text- tracking-wide mb-4">Startup us</h2>
+                        <h3 class="font-sen text-xl font-bold mb-2">The Future of AI in Everyday Life</h3>
+                        <p class="mb-4">Explore how artificial intelligence is shaping our daily routines and what to expect in the coming years.</p>
+                       
+                    </div></div>
+            </article>  
+            <article class=" rounded-lg overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">
+                <div class="flex ">     <img src="assests/photo-of-people-walking-on-hallway-3182811.svg" alt="Blog post image" class=" object-cover">
+                    <div class="p-6 w-[44rem] ">
+                          <h2 class="uppercase text-purple text- tracking-wide mb-4">TECHNOLOGY us</h2>
+                        <h3 class="font-sen text-xl font-bold mb-2">The Future of AI in Everyday Life</h3>
+                        <p class="mb-4">Explore how artificial intelligence is shaping our daily routines and what to expect in the coming years.</p>
+                       
+                    </div></div>
+            </article> 
+             <article class=" rounded-lg overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">
+                <div class="flex ">     <img src="assests/two-women-in-front-of-dry-erase-board-1181533-1.svg" alt="Blog post image" class=" object-cover">
+                    <div class="p-6 w-[44rem]">
+                          <h2 class="uppercase text-purple text- tracking-wide mb-4">ECONOMY us</h2>
+                        <h3 class="font-sen text-xl font-bold mb-2">The Future of AI in Everyday Life</h3>
+                        <p class="mb-4">Explore how artificial intelligence is shaping our daily routines and what to expect in the coming years.</p>
+                       
+                    </div></div>
+            </article>
+        </div>
+        <div class="flex justify-center items-center cursor-pointer fade-in">
+            <h1 class="mx-2 font-bold text-gray-400 text-xl"> < Prev </h1>
+            <h1 class=" font-bold 0 text-xl"> Next></h1>
+        </div>
+      
+            <h2 class="font-sen font-sen text-3xl p-10 font-bold  fade-in">All Categories</h2>
+        
+        <div class="grid grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div
+                class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow"><a href="category.html">
+                <img src="assests/Icon-1.svg" width="45px" height="45px" alt="">
+                <h3 class="font-sen text-xl font-bold mb-2">Business</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p></a>
+            </div>
+            <div
+                class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow"><a href="category.html">
+                <img src="assests/Icon (2).svg" width="30px" height="30px" alt="">
+
+                <h3 class="font-sen text-xl font-bold mb-2">Startup</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p></a>
+            </div>
+            <div
+                class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow"><a href="category.html">
+                <img src="assests/icon.svg" width="45px" height="45px" alt="">
+                <h3 class="font-sen text-xl font-bold mb-2">Economy</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p></a>
+            </div>
+            <div
+                class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow"><a href="category.html">
+                <img src="assests/business-and-trade 1.svg" width="45px" height="45px" alt="">
+                <h3 class="font-sen text-xl font-bold mb-2">Technology</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p></a>
+            </div>
+        </div>
+        <div class=" flex justify-center items-center my-10">
+            <div class="text-center p-6 bg-white max-w-xs ">
+                <h1 class="font-sen text-xl font-extrabold ">Join our team to be a part of our story</h1>
+                <p class="text-gray-500 text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <button class="bg-light-yellow text-black font-semibold py-2 px-4 rounded-sm hover:bg-yellow-400">Join Now</button>
+              </div>
+            </div>
+    </main>
+    <footer class="p-8 bg-primary text-gray-200">
+        <div class="max-w-5xl mx-auto">
+          <div class="flex justify-between items-center mb-8">
+            <div class="text-2xl font-bold">{Finsweet</div>
+    
+                <nav class="space-x-6">
+                    <a href="index.html" class="hover:text-light-yellow">Home</a>
+                    <a href="blog.html" class="hover:text-light-yellow">Blog</a>
+                    <a href="about.html" class="hover:text-light-yellow">About us</a>
+                    <a href="contact.html" class="hover:text-light-yellow">Contact us</a>
+                    <a href="privacy-policy.html" class="hover:text-light-yellow">Privacy Policy</a>
+                  </nav>
+          </div>
+    
+          <div class="bg-dark-grey p-8 h-[13rem] rounded-lg flex justify-between items-center">
+            <div class="text-xl w-[23rem] font-semibold">Subscribe to our news letter to get latest updates and news</div>
+            <div class="flex space-x-4">
+              <input type="email" placeholder="Enter Your Email" class="bg-dark-grey text-gray-300 p-3 rounded-sm border border-slate-600" />
+              <button class="bg-light-yellow text-gray-900 font-semibold px-4 py-2 rounded-sm hover:bg-yellow-400">Subscribe</button>
+            </div>
+          </div>
+    
+          <div class="flex justify-between items-center mt-8 text-sm">
+            <div>
+              <p>Finstreet 118 2561 Fintown</p>
+              <p>Hello@finsweet.com  020 7993 2905</p>
+            </div>
+    
+            <div class="flex space-x-4 cursor-pointer">
+           <img src="assests/Social wrapper.svg" alt="">
+          
+            </div>
+          </div>
+        </div>
+      </footer>
+ 
+ 
+</body>
+</html>

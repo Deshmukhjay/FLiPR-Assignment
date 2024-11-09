@@ -1,0 +1,70 @@
+/*styles.css 
+:root {
+    --color-primary: #232536;
+    --color-secondary: #FFD050;
+    --color-purple: #592EA9;
+    --color-dark-grey: #4C4C4C;
+    --color-medium-grey: #6D6E76;
+    --color-light-grey: #F4F4F4;
+    --color-lavender: #F4F0F8;
+    --color-light-yellow: #FBF6EA;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sen', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--color-secondary);
+}
+*/
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add more common styles here

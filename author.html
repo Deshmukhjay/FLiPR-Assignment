@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Author Profile | Flipr Blog</title>
+    <meta name="description" content="Learn more about John Doe and explore their articles on Flipr Blog">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#232536',
+                        secondary: '#FFD050',
+                        purple: '#592EA9',
+                        'dark-grey': '#4C4C4C',
+                        'medium-grey': '#6D6E76',
+                        'light-grey': '#F4F4F4',
+                        lavender: '#F4F0F8',
+                        'fate-yellow':'#FBF6EA',
+                        'light-yellow': '#FFD050',
+                    },
+                    fontFamily: {
+                        'sen': ['Sen', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+
+</head>
+
+<body class="font-inter text-primary">
+    <header class="bg-primary text-white py-4">
+        <div class="container mx-auto px-4">
+            <nav>
+                <ul class="flex justify-end space-x-6">
+                    <li><a href="index.html" class="hover:text-secondary transition-colors">Home</a></li>
+                    <li><a href="blog.html" class="hover:text-secondary transition-colors">Blog</a></li>
+                    <li><a href="about.html" class="hover:text-secondary transition-colors">About Us</a></li>
+                    <li><a href="contact.html" class="hover:text-secondary transition-colors">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto fade-in ">
+        <div class="bg-lavender p-16 fade-in">
+            <section class="max-w-3xl mx-auto mb-16">
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-8 fade-in">
+                    <img src="assests/close-up-photography-of-man-wearing-sunglasses-1212984 (2).svg" alt="John Doe"
+                        class="">
+                    <div>
+                        <h1 class="font-sen text-4xl font-bold mb-4">Hey there, I’m Andrew Jonhson and welcome to my
+                            Blog</h1>
+                        <p class="text-medium-grey mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.
+                            Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.</p>
+                        <img src="assests/social.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <div class="flex absolute right-[15rem] top-[29rem] "><img src="assests/shape.svg" alt="">
+                <img src="assests/shape-1.svg" alt="">
+            </div>
+        </div>
+        <section class="p-16">
+            <h2 class="font-sen text-3xl p-10 font-bold ml-[15rem] fade-in">My Post </h2>
+            <div class="flex justify-center items-center flex-col gap-8 p-10 w-[90rem]">
+                <article
+                    class="   rounded-lg overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">
+                    <div class="flex "> <img src="assests/two-women-in-front-of-dry-erase-board-1181533.svg"
+                            alt="Blog post image" class="object-cover">
+                        <div class="p-6 w-[24rem]">
+                            <h2 class="uppercase text-purple text- tracking-wide mb-4">BUSINESS</h2>
+                            <h3 class="font-sen text-2xl font-bold mb-2">Font sizes in UI design: The complete guide to
+                                follow</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class=" rounded-lg overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">
+                    <div class="flex "> <img src="assests/photo-of-people-walking-on-hallway-3182811.svg"
+                            alt="Blog post image" class=" object-cover">
+                        <div class="p-6 w-[24rem] ">
+                            <h2 class="uppercase text-purple text- tracking-wide mb-4">Economy</h2>
+                            <h3 class="font-sen text-2xl font-bold mb-2">How to build rapport with your web design
+                                clients
+                            </h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="p-8 bg-primary text-gray-200">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex justify-between items-center mb-8">
+                <div class="text-2xl font-bold">{Finsweet</div>
+
+                <nav class="space-x-6">
+                    <a href="#" class="hover:text-light-yellow">Home</a>
+                    <a href="#" class="hover:text-light-yellow">Blog</a>
+                    <a href="#" class="hover:text-light-yellow">About us</a>
+                    <a href="#" class="hover:text-light-yellow">Contact us</a>
+                    <a href="#" class="hover:text-light-yellow">Privacy Policy</a>
+                </nav>
+            </div>
+
+            <div class="bg-dark-grey p-8 h-[13rem] rounded-lg flex justify-between items-center">
+                <div class="text-xl w-[23rem] font-semibold">Subscribe to our news letter to get latest updates and news
+                </div>
+                <div class="flex space-x-4">
+                    <input type="email" placeholder="Enter Your Email"
+                        class="bg-dark-grey text-gray-300 p-3 rounded-sm border border-slate-600" />
+                    <button
+                        class="bg-light-yellow text-gray-900 font-semibold px-4 py-2 rounded-sm hover:bg-yellow-400">Subscribe</button>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center mt-8 text-sm">
+                <div>
+                    <p>Finstreet 118 2561 Fintown</p>
+                    <p>Hello@finsweet.com 020 7993 2905</p>
+                </div>
+
+                <div class="flex space-x-4 cursor-pointer">
+                    <img src="assests/Social wrapper.svg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            fadeElements.forEach((el, index) => {
+                el.style.animationDelay = `${index * 0.2}s`;
+            });
+        });
+    </script>
+</body>
+
+</html>

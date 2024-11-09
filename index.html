@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipr Blog - Home</title>
+    <meta name="description" content="Discover amazing content across various categories on Flipr Blog">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#232536',
+                        secondary: '#FFD050',
+                        purple: '#592EA9',
+                        'dark-grey': '#4C4C4C',
+                        'medium-grey': '#6D6E76',
+                        'light-grey': '#F4F4F4',
+                        lavender: '#F4F0F8',
+                        'fate-yellow':'#FBF6EA',
+                        'light-yellow': '#FFD050',
+                    },
+                    fontFamily: {
+                        'sen': ['Sen', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+
+</head>
+
+<body class="font-inter text-primary">
+    <header class="bg-primary text-white py-4">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center justify-between">
+                <span>
+                    <h1 class="text-2xl"> {Finsweet</h1>
+                </span>
+                <ul class="flex justify-end items-center space-x-6 ">
+                    <li><a href="index.html" class="hover:text-secondary transition-colors">Home</a></li>
+                    <li><a href="blog.html" class="hover:text-secondary transition-colors">Blog</a></li>
+                    <li><a href="about.html" class="hover:text-secondary transition-colors">About Us</a></li>
+                    <li><a href="contact.html" class="hover:text-secondary transition-colors">Contact</a></li>
+                    <button class="rounded-lg bg-white w-36 h-12 text-black hover:bg-light-yellow transition-colors"><a href="#">Subscribe</a></button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="h-screen bg-cover bg-center p-10 fade-in"
+                style="background-image: url('assests/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg');">
+                <div class=" absolute top-[25%]">
+                    <h2 class="uppercase text-white tracking-wide mb-4">posted on <span class="font-bold">startup</span>
+                    </h2>
+                    <div class="w-[65%] text-white ">
+                        <h1 class="text-6xl font-bold mb-4">Step-by-step guide to choosing great font pairs</h1>
+                        <p class="text-lg mb-4"> By <span class="text-light-yellow">Jocab jones</span> | May 23 2022.
+                        </p>
+                        <div>
+                            <p class="text-lg w-2/3 text-white mb-4">Explore how artificial intelligence is shaping our
+                                daily routines and what to expect in the coming years.</p>
+                        </div>
+                        <button class="bg-light-yellow w-36 h-8 rounded-sm items-center text-sm text-black hover:bg-yellow-400 transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">Read More
+                            ></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 py-16 fade-in">
+            <h1 class="text-xl font-extrabold ">Featured Post</h1>
+            <div class=" h-screen flex mb-12">
+                <div class="featured-post w-[50%] border border-slate-500 p-10">
+
+                    <img src="assests/white-concrete-building-1838640.svg" alt="">
+                    <p class="text-lg py-4"> By <span class="text-purple">John base</span> | May 23 2022.</p>
+                    <h1 class="font-sen text-xl font-bold py-4">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Autem minus ipsam tenetur!</h1>
+                    <div>
+                        <p class="text-lg w-[68%] text-grey py-4">Explore how artificial intelligence is shaping our
+                            daily routines and what to expect in the coming years.</p>
+                    </div>
+                    <button class="bg-light-yellow w-36 h-8 rounded-sm items-center text-sm text-black hover:bg-yellow-400 transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">Read More
+                        ></button>
+                </div>
+
+
+                <div class="All-post ml-32 fade-in">
+                    <h1 class="text-xl font-extrabold ">All Post</h1>
+                    <h2 class="text-purple absolute right-10 top-[58rem] cursor-pointer">view all</h2>
+                    <div class="grid grid-rows-4">
+                        <div
+                            class=" p-6 rounded-lg cursor-pointer transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-lavender">
+                            <p class="text-lg py-4"> By <span class="text-purple">John base</span> | May 23 2022.</p>
+                            <div>
+                                <h1 class="font-sen text-xl font-bold ">8 figma system that you can download for free
+                                    today.</h1>
+                            </div>
+                        </div>
+                        <div
+                            class=" p-6 rounded-lg transition-transform cursor-pointer hover:-translate-y-2 hover:shadow-lg fade-in  hover:bg-lavender">
+                            <p class="text-lg py-4"> By <span class="text-purple">John base</span> | May 23 2022.</p>
+                            <div>
+                                <h1 class="font-sen text-xl font-bold ">8 figma system that you can download for free
+                                    today.</h1>
+                            </div>
+                        </div>
+                        <div
+                            class=" p-6 rounded-lg transition-transform cursor-pointer hover:-translate-y-2 hover:shadow-lg fade-in  hover:bg-lavender">
+                            <p class="text-lg py-4"> By <span class="text-purple">John base</span> | May 23 2022.</p>
+                            <div>
+                                <h1 class="font-sen text-xl font-bold ">8 figma system that you can download for free
+                                    today.</h1>
+                            </div>
+                        </div>
+                        <div
+                            class=" p-6 rounded-lg transition-transform cursor-pointer hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-lavender">
+                            <p class="text-lg  py-4"> By <span class="text-purple">John base</span> | May 23 2022.</p>
+                            <div>
+                                <h1 class="font-sen text-xl font-bold ">8 figma system that you can download for free
+                                    today.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-6 flex justify-end">
+                <div class="w-2/3 h-full bg-light-yellow"></div>
+                <div class="w-48 bg-purple"></div>
+            </div>
+            <div class="w-full h-full flex bg-lavender fade-in px-4">
+                <div class="w-[125%] p-10">
+                    <h2 class="uppercase tracking-wide mb-4">About us</h2>
+                    <h1 class="font-sen text-xl font-bold ">We are community of content writers who share their
+                        learnings</h1>
+                    <p class="text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum vero,
+                        excepturi sit hic dolorum assumenda dicta quam aut dolores.</p>
+                    <button class=" text-sm text-purple">Read More ></button>
+                </div>
+                <div class="p-10 w-[100rem] ">
+                    <h2 class="uppercase  tracking-wide mb-4">Our Mission</h2>
+                    <h1 class="font-sen text-xl font-bold ">Creating valuable content for creatives all around the world
+                    </h1>
+                    <p class="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nemo
+                        veritatis sequi id dolores, neque tempora voluptatem repellendus placeat fuga !</p>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 py-16 fade-in ">
+            <div class="flex justify-center items-center">
+                <h2 class="font-sen font-sen text-xl font-bold mb-8 justify-center fade-in">Choose A Category</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div
+                    class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow">
+                    <img src="assests/Icon-1.svg" width="45px" height="45px" alt="">
+                    <h3 class="font-sen text-xl font-bold mb-2">Business</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p>
+                </div>
+                <div
+                    class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow">
+                    <img src="assests/Icon (2).svg" width="30px" height="30px" alt="">
+
+                    <h3 class="font-sen text-xl font-bold mb-2">Startup</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p>
+                </div>
+                <div
+                    class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow">
+                    <img src="assests/icon.svg" width="45px" height="45px" alt="">
+                    <h3 class="font-sen text-xl font-bold mb-2">Economy</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p>
+                </div>
+                <div
+                    class="p-6 cursor-pointer border border-gray-600 rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-light-yellow">
+                    <img src="assests/business-and-trade 1.svg" width="45px" height="45px" alt="">
+                    <h3 class="font-sen text-xl font-bold mb-2">Technology</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, provident.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 py-16">
+            <div class=" flex relative fade-in">
+                <div class="image w-[150%]">
+                    <img src="assests/close-up-photography-of-man-wearing-sunglasses-1212984.svg" alt="">
+                </div>
+                <div class=" w-fit h-full bg-white w-[48rem] p-24 absolute left-[37.25rem] top-[8rem]">
+                    <div class="w-[30rem] mb-4">
+                        <h2 class="uppercase tracking-wide mb-4">Why we started </h2>
+                        <h1 class="font-sen text-2xl font-bold mb-4 ">It started out as a simple idea and evolved into
+                            our passion</h1>
+                        <p class="text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip..</p>
+                        <button
+                            class=" bg-light-yellow w-44 h-12 rounded-sm items-center mb-4 font-bold text-sm text-black hover:bg-yellow-400 transition-transform hover:-translate-y-2 hover:shadow-lg fade-in">Discover
+                            our story ></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="container mx-auto px-4 py-16 fade-in">
+            <div class="flex justify-center items-center">
+                <h2 class="font-sen font-sen text-xl font-bold mb-8 justify-center fade-in">List of Authors</h2>
+            </div>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div
+                    class="p-6 bg-light-grey cursor-pointer  rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-lavender text-center transition-transform hover:scale-105 fade-in">
+                    <img src="assests/man-in-yellow-button-up-shirt-wearing-black-framed-eyeglasses-7562313.svg"
+                        alt="Author 1" class="w-24 h-24 rounded-full mx-auto mb-4">
+                    <h3 class="font-sen text-xl font-bold">Floyd Miles</h3>
+                    <p>Content Writer @Company</p>
+                    <div class="ml-10">
+                        <img src="assests/social.svg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="p-6 bg-light-grey cursor-pointer  rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-lavender text-center transition-transform hover:scale-105 fade-in">
+                    <img src="assests/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083.svg"
+                        alt="Author 1" class="w-24 h-24 rounded-full mx-auto mb-4">
+                    <h3 class="font-sen text-xl font-bold">Dianne Russell</h3>
+                    <p>Content Writer @Company</p>
+                    <div class="ml-10">
+                        <img src="assests/social.svg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="p-6 bg-light-grey cursor-pointer  rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-lavender text-center transition-transform hover:scale-105 fade-in">
+                    <img src="assests/fashion-woman-cute-shoes-5704849.svg" alt="Author 2"
+                        class="w-24 h-24 rounded-full mx-auto mb-4">
+                    <h3 class="font-sen text-xl font-bold">Jenny Wilson</h3>
+                    <p>Content Writer @Company</p>
+                    <div class="ml-10">
+                        <img src="assests/social.svg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="p-6 bg-light-grey cursor-pointer  rounded-sm transition-transform hover:-translate-y-2 hover:shadow-lg fade-in hover:bg-lavender text-center transition-transform hover:scale-105 fade-in">
+                    <img src="assests/content-baker-with-delicious-puff-in-cafeteria-6205509.svg" alt="Author 3"
+                        class="w-24 h-24 rounded-full mx-auto mb-4">
+                    <h3 class="font-sen text-xl font-bold">Leslie Alexander</h3>
+                    <p>Content Writer @Company</p>
+                    <div class="ml-10">
+                        <img src="assests/social.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-evenly my-10">
+                <div class="">
+                    <h1 class="font-sen text-sm opacity-25 font-bold">We are</h1>
+                    <h1 class="font-sen text-xl font-bold">Featured in</h1>
+                </div>
+                <img src="assests/Logo 1.svg" alt="">
+                <img src="assests/Logo 2.svg" alt="">
+                <img src="assests/Logo 3.svg" alt="">
+                <img src="assests/Logo 4.svg" alt="">
+                <img src="assests/Logo 5.svg" alt="">
+            </div>
+            <div class="flex bg-fate-yellow">
+                <div class="w-1/2 p-24 ">
+                    <div class="p-10 w-[30rem] border-r-2 ">
+                        <h2 class="uppercase font-bold tracking-wide mb-4">TESTIMONIALs</h2>
+                        <h1 class="font-sen text-xl font-bold ">What people say about our blog
+                        </h1>
+                        <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor.</p>
+                    </div>
+                </div>
+                <div class="p-24  ml-[-12rem]">
+                    <div class="w-[24rem] p-10 ">
+                        <h2 class="font-sen text-xl font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                    </div>
+                    <div class="flex justify-between items-center ml-10">
+                        <div class=""> <img src="assests/Image.svg" alt="">
+                            <div class="">
+                                <h1 class="font-sen text-xl font-bold ">Jonathan Vallem
+                                </h1>
+                                <p class="text-md">New york, USA</p>
+                            </div>
+                        </div>
+                        <div class="flex cursor-pointer">
+                            <img src="assests/Back button.svg" alt="">
+                            <img src="assests/Next Button.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" flex justify-center items-center my-10">
+            <div class="text-center p-6 bg-white max-w-xs ">
+                <h1 class="font-sen text-xl font-extrabold ">Join our team to be a part of our story</h1>
+                <p class="text-gray-500 text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <button class="bg-light-yellow text-black font-semibold py-2 px-4 rounded-sm hover:bg-yellow-400">Join Now</button>
+              </div>
+            </div>
+
+        
+        </section>
+    </main>
+    <footer class="p-8 bg-primary text-gray-200">
+        <div class="max-w-5xl mx-auto">
+          <div class="flex justify-between items-center mb-8">
+            <div class="text-2xl font-bold">{Finsweet</div>
+    
+                <nav class="space-x-6">
+                    <a href="index.html" class="hover:text-light-yellow">Home</a>
+                    <a href="blog.html" class="hover:text-light-yellow">Blog</a>
+                    <a href="about.html" class="hover:text-light-yellow">About us</a>
+                    <a href="contact.html" class="hover:text-light-yellow">Contact us</a>
+                    <a href="privacy-policy.html" class="hover:text-light-yellow">Privacy Policy</a>
+                  </nav>
+          </div>
+    
+          <div class="bg-dark-grey p-8 h-[13rem] rounded-lg flex justify-between items-center">
+            <div class="text-xl w-[23rem] font-semibold">Subscribe to our news letter to get latest updates and news</div>
+            <div class="flex space-x-4">
+              <input type="email" placeholder="Enter Your Email" class="bg-dark-grey text-gray-300 p-3 rounded-sm border border-slate-600" />
+              <button class="bg-light-yellow text-gray-900 font-semibold px-4 py-2 rounded-sm hover:bg-yellow-400">Subscribe</button>
+            </div>
+          </div>
+    
+          <div class="flex justify-between items-center mt-8 text-sm">
+            <div>
+              <p>Finstreet 118 2561 Fintown</p>
+              <p>Hello@finsweet.com  020 7993 2905</p>
+            </div>
+    
+            <div class="flex space-x-4 cursor-pointer">
+           <img src="assests/Social wrapper.svg" alt="">
+          
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script>
+       
+    </script>
+</body>
+
+</html>
